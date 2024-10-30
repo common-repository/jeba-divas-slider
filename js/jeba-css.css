@@ -1,0 +1,47 @@
+/*
+ * Divas Slider main style
+ * Do not edit or edit with extreme care!
+ * These rules are mandatory for Divas Slider to work correctly
+ */
+.divas-slider {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+.divas-slide-container {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.divas-slide-container:before,
+.divas-slider-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.divas-slide {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	float: left;
+	overflow: hidden;
+}
+
+.divas-slide img {
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	outline: 0 none;
+	-webkit-backface-visibility: hidden;
+  	-moz-backface-visibility: hidden;
+ 	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
